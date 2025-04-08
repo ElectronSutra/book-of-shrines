@@ -1,0 +1,24 @@
+---
+baseURL: https://electronsutra.github.io/book-of-shrines/
+languageCode: en-us
+title: Book of Shrines
+theme: hugo-book
+markup:
+  tableOfContents:
+    startlevel: 1
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  BookTheme: light
+  BookToC: true
+  BookRepo: true
+  BookComments: false
+menu:
+  after:
+    - name: GitHub
+      url: https://github.com/ElectronSutra/book-of-shrines/
+      weight: 10
+    - name: Hugo
+      url: https://gohugo.io/
+      weight: 11
